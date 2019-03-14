@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+h1 {
+    color: orange;
+}
+h2, h3, h4, h5, h6{
+    color: #444;
+}
+li {
+    list-style: none;
+    padding-left: 15px;
+}
+a{
+    color: rgb(231, 21, 21);
+}
+a:hover{
+    color:  rgb(231, 21, 21,.8);
+}
+/* ------ navbar ------ ------ navbar ------ 
+   ------ navbar ------ ------ navbar ------ 
+   ------ navbar ------ ------ navbar ------ */
+
+
+
+/* ------ foooter ------ ------ foooter ------ 
+   ------ foooter ------ ------ foooter ------ 
+   ------ foooter ------ ------ foooter ------ */
+
+.footer {
+    width: 100%;
+    height: 100%;
+    /* min-height: 50px; */
+    background: rgba(41, 38, 38, 0.966);
+}
+
+.footer .info-footer{
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.footer .info-footer ul .list a{
+    color: rgb(231, 21, 21);
+
+}
+
+.footer .create-footer {
+    width: 100%;
+    height: 100%;
+    text-align: end;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.footer .create-footer h6 {
+    color: rgb(231, 21, 21);
+}
+
+
+/* ------ perfil ------ ------ perfil ------ 
+   ------ perfil ------ ------ perfil ------ 
+   ------ perfil ------ ------ perfil ------ */
+
+.contenedor-section-ext{
+    width: 85%;
+    height: 100%;;
+    padding: 15px;
+    margin: auto;
+}
+.contenedor-section-ext .contenedor-section-int {
+    background: #f2f2f2;
+    box-shadow: 3px 3px 3px #aaa;
+}
+  
+.contenedor-section-ext .contenedor-section-int .caja-title {
+    width: 85%;
+    height: 100%;;
+    padding: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.contenedor-section-ext .contenedor-section-int .caja-title .caja-title-imagen {
+    height: 100%;
+    width: 30%;
+}
+  
+.contenedor-section-ext .contenedor-section-int .caja-title .caja-title-info{
+    height: 100%;
+    width: 70%;
+}
+  
+.contenedor-section-ext .contenedor-section-int .caja-title .caja-title-info h3{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 3px 3px 3px #aaa;
+    padding: 1em 0 0 0; 
+}
+  
+.contenedor-section-ext .contenedor-section-int .caja-title .caja-title-info h5{
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+
+.contenedor-section-ext .contenedor-section-int .caja-body{
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor-section-ext .contenedor-section-int .caja-body .info-mr {
+    height: 90%;
+    width: 30%;
+}
+
+.contenedor-section-ext .contenedor-section-int .caja-body .info-mr .contacto{
+    width: 90%;
+    height: 100%;
+    background: rgba(73, 173, 173, 0.5);
+}
+
+.contenedor-section-ext .contenedor-section-int .caja-body .info-mr .contacto .contact{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.contenedor-section-ext .contenedor-section-int .caja-body .info-ml {
+    height: 100%;
+    width: 70%;
+}
+
+.contenedor-section-ext .contenedor-section-int .caja-body .info-ml .educacion .edu p {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-section-ext .contenedor-section-int .caja-footer {
+    width: 85%;
+    height: 100%;;
+    padding: 15px;
+    margin: auto;
+}
+

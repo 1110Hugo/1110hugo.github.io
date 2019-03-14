@@ -86,14 +86,14 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/app.css":
-/*!***********************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/app.css ***!
-  \***********************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/modulos/css/index.css":
+/*!*************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/modulos/css/index.css ***!
+  \*************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/app.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"* {\\r\\n    margin: 0;\\r\\n    padding: 0;\\r\\n    box-sizing: border-box;\\r\\n    -webkit-box-sizing: border-box;\\r\\n    -moz-box-sizing: border-box;\\r\\n}\\r\\n\\r\\nh1 {\\r\\n    color: orange;\\r\\n}\\r\\nh2, h3, h4, h5, h6{\\r\\n    color: #444;\\r\\n}\\r\\nli {\\r\\n    list-style: none;\\r\\n    padding-left: 15px;\\r\\n}\\r\\na{\\r\\n    color: rgb(231, 21, 21);\\r\\n}\\r\\na:hover{\\r\\n    color:  rgb(231, 21, 21,.8);\\r\\n}\\r\\n/* ------ navbar ------ ------ navbar ------ \\r\\n   ------ navbar ------ ------ navbar ------ \\r\\n   ------ navbar ------ ------ navbar ------ */\\r\\n\\r\\n\\r\\n\\r\\n/* ------ foooter ------ ------ foooter ------ \\r\\n   ------ foooter ------ ------ foooter ------ \\r\\n   ------ foooter ------ ------ foooter ------ */\\r\\n\\r\\n.footer {\\r\\n    width: 100%;\\r\\n    height: 100%;\\r\\n    /* min-height: 50px; */\\r\\n    background: rgba(41, 38, 38, 0.966);\\r\\n}\\r\\n\\r\\n.footer .info-footer{\\r\\n    width: 100%;\\r\\n    height: 100%;\\r\\n    padding-top: 20px;\\r\\n    text-align: center;\\r\\n}\\r\\n\\r\\n.footer .info-footer ul .list a{\\r\\n    color: rgb(231, 21, 21);\\r\\n\\r\\n}\\r\\n\\r\\n.footer .create-footer {\\r\\n    width: 100%;\\r\\n    height: 100%;\\r\\n    text-align: end;\\r\\n    padding-bottom: 10px;\\r\\n    padding-right: 10px;\\r\\n}\\r\\n\\r\\n.footer .create-footer h6 {\\r\\n    color: rgb(231, 21, 21);\\r\\n}\\r\\n\\r\\n\\r\\n/* ------ perfil ------ ------ perfil ------ \\r\\n   ------ perfil ------ ------ perfil ------ \\r\\n   ------ perfil ------ ------ perfil ------ */\\r\\n\\r\\n.contenedor-section-ext{\\r\\n    width: 85%;\\r\\n    height: 100%;;\\r\\n    padding: 15px;\\r\\n    margin: auto;\\r\\n}\\r\\n.contenedor-section-ext .contenedor-section-int {\\r\\n    background: #f2f2f2;\\r\\n    box-shadow: 3px 3px 3px #aaa;\\r\\n}\\r\\n  \\r\\n.contenedor-section-ext .contenedor-section-int .caja-title {\\r\\n    width: 85%;\\r\\n    height: 100%;;\\r\\n    padding: 15px;\\r\\n    margin: auto;\\r\\n    display: flex;\\r\\n    flex-direction: row;\\r\\n}\\r\\n.contenedor-section-ext .contenedor-section-int .caja-title .caja-title-imagen {\\r\\n    height: 100%;\\r\\n    width: 30%;\\r\\n}\\r\\n  \\r\\n.contenedor-section-ext .contenedor-section-int .caja-title .caja-title-info{\\r\\n    height: 100%;\\r\\n    width: 70%;\\r\\n}\\r\\n  \\r\\n.contenedor-section-ext .contenedor-section-int .caja-title .caja-title-info h3{\\r\\n    text-align: center;\\r\\n    font-size: 32px;\\r\\n    font-family: 'Open Sans', sans-serif;\\r\\n    text-shadow: 3px 3px 3px #aaa;\\r\\n    padding: 1em 0 0 0; \\r\\n}\\r\\n  \\r\\n.contenedor-section-ext .contenedor-section-int .caja-title .caja-title-info h5{\\r\\n    text-align: center;\\r\\n    padding: 1em 0 0 0;\\r\\n}\\r\\n\\r\\n.contenedor-section-ext .contenedor-section-int .caja-body{\\r\\n    width: 90%;\\r\\n    max-width: 900px;\\r\\n    margin: auto;\\r\\n    padding-bottom: 1em;\\r\\n    display: flex;\\r\\n    flex-direction: row;\\r\\n}\\r\\n\\r\\n.contenedor-section-ext .contenedor-section-int .caja-body .info-mr {\\r\\n    height: 90%;\\r\\n    width: 30%;\\r\\n}\\r\\n\\r\\n.contenedor-section-ext .contenedor-section-int .caja-body .info-mr .contacto{\\r\\n    width: 90%;\\r\\n    height: 100%;\\r\\n    background: rgba(73, 173, 173, 0.5);\\r\\n}\\r\\n\\r\\n.contenedor-section-ext .contenedor-section-int .caja-body .info-mr .contacto .contact{\\r\\n    width: 100%;\\r\\n    height: 100%;\\r\\n    padding: 10px;\\r\\n}\\r\\n\\r\\n.contenedor-section-ext .contenedor-section-int .caja-body .info-ml {\\r\\n    height: 100%;\\r\\n    width: 70%;\\r\\n}\\r\\n\\r\\n.contenedor-section-ext .contenedor-section-int .caja-body .info-ml .educacion .edu p {\\r\\n    padding: 0;\\r\\n    margin: 0;\\r\\n}\\r\\n\\r\\n.contenedor-section-ext .contenedor-section-int .caja-footer {\\r\\n    width: 85%;\\r\\n    height: 100%;;\\r\\n    padding: 15px;\\r\\n    margin: auto;\\r\\n}\\r\\n\\r\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/modulos/css/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -131,17 +131,6 @@ eval("\n/**\n * When source maps are enabled, `style-loader` uses a link element
 
 /***/ }),
 
-/***/ "./src/app.css":
-/*!*********************!*\
-  !*** ./src/app.css ***!
-  \*********************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!./app.css */ \"./node_modules/css-loader/dist/cjs.js!./src/app.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/app.css?");
-
-/***/ }),
-
 /***/ "./src/app.js":
 /*!********************!*\
   !*** ./src/app.js ***!
@@ -149,7 +138,18 @@ eval("\nvar content = __webpack_require__(/*! !../node_modules/css-loader/dist/c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var css = __webpack_require__(/*! ./app.css */ \"./src/app.css\");\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("var css = __webpack_require__(/*! ./modulos/css/index.css */ \"./src/modulos/css/index.css\");\n\n//# sourceURL=webpack:///./src/app.js?");
+
+/***/ }),
+
+/***/ "./src/modulos/css/index.css":
+/*!***********************************!*\
+  !*** ./src/modulos/css/index.css ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("\nvar content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!./index.css */ \"./node_modules/css-loader/dist/cjs.js!./src/modulos/css/index.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\n\n\nvar options = {\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = undefined;\n\nvar update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/modulos/css/index.css?");
 
 /***/ })
 
